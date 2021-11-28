@@ -10,7 +10,9 @@
   <title>Hem Raj Pandey</title>
 </head>
 
-<body>
+<body onload="myfunction()">
+    <div id="loading"></div>
+
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -267,5 +269,11 @@
   <script>
     $('.carousel').flipster();
     </script>
+  <script>
+  var preloader= document.getElementById('loading');
+  function myfunction() {
+    preloader.style.display='none';
+  }
+</script>
 </body>
 </html>
