@@ -1,0 +1,10 @@
+#img{
+    height: 400px;
+    width: 500px;
+}
+
+.gallery.carousel{
+    width: 100px;
+    margin: 100px auto 0;
+    overflow: visible;
+}
