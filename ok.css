@@ -4,6 +4,17 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:white
+	 url('/loading.gif');
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 z-index: 99999;
+
+}
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
