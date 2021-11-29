@@ -4,6 +4,11 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+#gallery{
+	background-color:darkkhaki;
+	border-style:groove;
+	border-radius: 20px;
+}
 #loading{
 	position: fixed;
 	width: 100%;
