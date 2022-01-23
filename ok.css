@@ -738,15 +738,16 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	.Quick{
-		 
-		background-color: rgb(241, 241, 11);
-		
-	}
+	
 	/* End header */
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+	}
+	.Quick{
+		 
+		background-color: rgb(241, 241, 11);
+		
 	}
 }
 /* End  Media Query For Desktop */
