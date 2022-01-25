@@ -1,15 +1,78 @@
-body{
-padding:10px;
-}
-.wrapper{
-dispaly:grid;
-    grid-template:repeat(auto-fit,minmax(400px,ifr))
-        grid-gap:5px;
-}
-img {
-    width:100%;
-    border-radius:20px;
-}
-.box{
-    padding:10px;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .grid {
+    padding: 1em;
+   }
+   
+   .grid-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5em;
+   }
+   
+   .item {
+    flex: 1 1 100%;
+    padding: 0.5em;
+   }
+   
+   .item-inner {
+    background-size: cover;
+    background-image: url('https://picsum.photos/seed/1/640/400');
+    padding-top: calc(100% / (16/9));
+   }
+   
+   .item:nth-child(2) .item-inner {
+    background-image: url('https://picsum.photos/seed/2/640/400');
+   }
+   .item:nth-child(3) .item-inner {
+    background-image: url('https://picsum.photos/seed/3/640/400');
+   }
+   .item:nth-child(4) .item-inner {
+    background-image: url('https://picsum.photos/seed/4/640/400');
+   }
+   .item:nth-child(5) .item-inner {
+    background-image: url('https://picsum.photos/seed/5/640/400');
+   }
+   .item:nth-child(6) .item-inner {
+    background-image: url('https://picsum.photos/seed/6/640/400');
+   }
+   .item:nth-child(7) .item-inner {
+    background-image: url('https://picsum.photos/seed/7/640/400');
+   }
+   .item:nth-child(8) .item-inner {
+    background-image: url('https://picsum.photos/seed/8/640/400');
+   }
+   .item:nth-child(9) .item-inner {
+    background-image: url('https://picsum.photos/seed/9/640/400');
+   }
+   .item:nth-child(10) .item-inner {
+    background-image: url('https://picsum.photos/seed/10/640/400');
+   }
+   .item:nth-child(11) .item-inner {
+    background-image: url('https://picsum.photos/seed/11/640/400');
+   }
+   .item:nth-child(12) .item-inner {
+    background-image: url('https://picsum.photos/seed/12/640/400');
+   }
+   
+   @media screen and (min-width: 480px) {
+    .item {
+     flex: 1 1 50%;
+    }
+   }
+   
+   @media screen and (min-width: 768px) {
+    .item {
+     flex: 1 1 33.333%;
+    }
+   }
+   
+   @media screen and (min-width: 980px) {
+    .item {
+     flex: 1 1 25%;
+    }
+   }
