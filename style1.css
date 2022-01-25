@@ -1,10 +1,15 @@
-#img{
-    height: 400px;
-    width: 500px;
+body{
+padding:10px;
 }
-
-.gallery.carousel{
-    width: 100px;
-    margin: 100px auto 0;
-    overflow: visible;
+.wrapper{
+dispaly:grid;
+    grid-template:repeat(auto-fit,minmax(400px,ifr))
+        grid-gap:5px;
+}
+img {
+    width:100%;
+    border-radius:20px;
+}
+.box{
+    padding:10px;
 }
