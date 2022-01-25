@@ -21,27 +21,27 @@
    
    .item-inner {
     background-size: cover;
-    background-image: url('https://picsum.photos/seed/1/640/400');
+    background-image: url(/img1.jpg);
     padding-top: calc(100% / (16/9));
    }
    
    .item:nth-child(2) .item-inner {
-    background-image: url('https://picsum.photos/seed/2/640/400');
+    background-image: url(/img4.jpg);
    }
    .item:nth-child(3) .item-inner {
-    background-image: url('https://picsum.photos/seed/3/640/400');
+    background-image: url(/img5.jpg);
    }
    .item:nth-child(4) .item-inner {
-    background-image: url('https://picsum.photos/seed/4/640/400');
+    background-image: url(/img6.jpg);
    }
    .item:nth-child(5) .item-inner {
-    background-image: url('https://picsum.photos/seed/5/640/400');
+    background-image: url(/img7.jpg);
    }
    .item:nth-child(6) .item-inner {
-    background-image: url('https://picsum.photos/seed/6/640/400');
+    background-image: url(/img8.jpg);
    }
    .item:nth-child(7) .item-inner {
-    background-image: url('https://picsum.photos/seed/7/640/400');
+    background-image: url(//img10.jpg);
    }
    .item:nth-child(8) .item-inner {
     background-image: url('https://picsum.photos/seed/8/640/400');
