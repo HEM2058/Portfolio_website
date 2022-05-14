@@ -44,20 +44,12 @@
     background-image: url(//img10.jpg);
    }
    .item:nth-child(8) .item-inner {
-    background-image: url('https://picsum.photos/seed/8/640/400');
+    background-image: url(/img2.jpg);
    }
    .item:nth-child(9) .item-inner {
-    background-image: url('https://picsum.photos/seed/9/640/400');
+    background-image: url(/img3.jpg);
    }
-   .item:nth-child(10) .item-inner {
-    background-image: url('https://picsum.photos/seed/10/640/400');
-   }
-   .item:nth-child(11) .item-inner {
-    background-image: url('https://picsum.photos/seed/11/640/400');
-   }
-   .item:nth-child(12) .item-inner {
-    background-image: url('https://picsum.photos/seed/12/640/400');
-   }
+   
    
    @media screen and (min-width: 480px) {
     .item {
