@@ -386,7 +386,7 @@ p {
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 10px;
+	margin: auto;
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
@@ -646,7 +646,7 @@ p {
 	}
 	#projects .project-item {
 		height: 400px;
-		margin: 0;
+		margin: 10px;
 		width: 100%;
 		border-radius: 0;
 	}
