@@ -702,13 +702,14 @@ app marcup
   pointer-events: all;
   opacity: 0.7;
 }
+
 .art-app .art-app-wrapper .art-app-container .art-menu-bar {
   background: #20202a;
   width: 230px;
   height: calc(100vh - 30px);
   position: absolute;
   z-index: 99;
-  right: -150px;
+  right: -230px;
   top: 0;
   bottom: 0;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -745,6 +746,12 @@ app marcup
 .art-app .art-app-wrapper .art-app-container .art-menu-bar .art-menu-bar-frame .art-menu-bar-header .art-menu-bar-btn.art-disabled {
   opacity: 0;
   pointer-events: none;
+}
+.art-app .art-app-wrapper .art-app-container .art-menu-bar .art-menu-bar-btn {
+  -webkit-transform: translateX(-80px);
+          transform: translateX(-80px);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .art-app .art-app-wrapper .art-app-container .art-menu-bar.art-active {
   -webkit-transform: translateX(-150px);
@@ -2556,6 +2563,8 @@ content (after 1200px)
   .art-banner .art-banner-overlay .art-banner-photo {
     display: none;
   }
+
+
 
   .art-grid.art-grid-2-col .art-grid-item {
     width: 50%;
