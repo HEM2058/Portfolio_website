@@ -691,4 +691,8 @@ $(function() {
 $(".art-link").on("click", function(){
 
   $(this).parent().toggleClass("showContent");
-})
+});
+
+//theme
+
+
