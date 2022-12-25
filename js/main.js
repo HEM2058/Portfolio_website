@@ -686,3 +686,9 @@ $(function() {
   })
 
 });
+
+// Readmore option
+$(".art-link").on("click", function(){
+
+  $(this).parent().toggleClass("showContent");
+})

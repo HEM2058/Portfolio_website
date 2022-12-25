@@ -2829,3 +2829,15 @@ html.is-animating .fade-left {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* 
+Readmore option */
+.mb-15 p{
+  height: 150px;
+  overflow: hidden;
+}
+.showContent p{
+  height: auto;
+}
+.showContent a.art-link{
+  color: white;
+} 
