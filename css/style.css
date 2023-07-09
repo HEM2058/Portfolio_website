@@ -2864,6 +2864,7 @@ Readmore option */
   margin: 10% auto;
   padding: 20px;
   width: 80%;
+  height: 80%;
   max-width: 700px;
 }
 
@@ -2904,6 +2905,7 @@ Readmore option */
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
+  height: 100%;
   padding-top: 56.25%; /* 16:9 aspect ratio (adjust if needed) */
 }
 
