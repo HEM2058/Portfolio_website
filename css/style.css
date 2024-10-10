@@ -2935,3 +2935,16 @@ Readmore option */
   background-color: #0A66C2;
   font-family: "SF Pro Text", Helvetica, sans-serif;
 }
+
+    .art-buttons-frame {
+        width: 70%; /* Default width for larger screens */
+    }
+
+    @media (max-width: 767px) { /* Adjust this value based on your mobile breakpoint */
+        .art-buttons-frame {
+            width: 100%; /* Width for mobile devices */
+        }
+    }
+P{
+  color: rgb(235, 213, 213);
+}
